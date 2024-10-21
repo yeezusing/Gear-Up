@@ -555,3 +555,43 @@ footer {
     flex: 0 0 auto; /* Cambiar el tamaño de los elementos secundarios */
 	display: none;
   }
+@media (max-width: 650px) {
+  #contenedor1,
+  #contenedor2,
+  #contenedor3,
+  #contenedor4,
+  #contenedor5 {
+    width: 100vw; /* Reducir el ancho de los contenedores */
+	float: left;
+  }
+
+  #article2-1,
+  #article3-1,
+  #article4-1,
+  #article5-1 {
+    width: 99vw;
+	float: left;
+  }
+
+  #article2-2,
+  #article3-2,
+  #article4-2,
+  #article5-2 {
+    width: 99vw; /* Ajustar el ancho del artículo secundario */
+	float: left;
+  }
+
+  #art3-1,
+  #art4-3-1,
+  #art5-3-1 {
+    flex-direction: column; /* Apilar los elementos en vertical */
+	display: none;
+  }
+
+  .sub-section,
+  .sub-section3,
+  .sub-section4,
+  .sub-section5 {
+    flex: 0 0 auto; /* Cambiar el tamaño de los elementos secundarios */
+	display: none;
+  }
